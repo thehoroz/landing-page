@@ -1,1 +1,1 @@
-This is the Landing Page prject from TOP
+This is the Landing Page project from TOP
