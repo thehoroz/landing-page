@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto', Sans-serif;
+    color:rgb(255, 241, 241)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header-and-wrapper1 {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Jhin-wallpaper.jpg);
+}
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        width: 99%;
+        gap: 30px;
+    }
+
+        .left-link {
+            margin-right: 30px;
+        }
+
+            .jhin-logo {
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                border: rgb(114, 102, 102) 1px solid;
+            }
+
+                .jhin-logo:hover {
+                    transform: scale(1.2);
+                    cursor: pointer;
+                }
+
+        .right-links {
+            margin-left: 30px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                gap: 30px;
+            }
+
+                a {
+                color: rgb(255, 241, 241);
+                text-decoration: none;   
+                }
+
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 50px;
+    }
+        .wrapper1 p {
+            border-radius: 3px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        .wrapper1 a{
+            align-self: center;
+        }
+        .art-btn{
+            width: 120px;
+            height: 40px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .wrapper1 p, .art-btn {
+            background-color: rgba(22, 8, 47, 0.342);
+            border: 1px solid rgba(99, 23, 199, 0.342);
+            font-weight: bold;
+        }
+    /*.jhin-gun {
+        width: 300px;
+        height: auto;
+    }*/
