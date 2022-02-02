@@ -14,7 +14,7 @@ body {
     height: 520px;
     display: flex;
     flex-direction: column;
-    background-image: url(/Jhin-wallpaper.jpg);
+    background-image: url(img/Jhin-wallpaper.jpg);
 }
 
     header {
