@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', Sans-serif;
-    color:rgb(255, 241, 241)
+    color:rgb(255, 255, 255)
 }
 
 body {
@@ -82,6 +82,9 @@ body {
             border-radius: 20px;
             margin: 5px;
         }
+            .art-btn:hover{
+                transform: scale(1.1);
+            }
 
         .wrapper1 p, .art-btn {
             background-color: rgba(22, 8, 47, 0.342);
@@ -92,3 +95,93 @@ body {
         width: 300px;
         height: auto;
     }*/
+.wrapper2 {
+    height: 530px;
+    background-color: rgb(22, 8, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}   
+
+    .info-wrapper {
+        display: flex;
+        gap: 50px;
+    }
+        .info {
+            width: 165px;
+        }
+            .info img {
+            width: 165px;
+            }
+
+            .info h3 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .info p {
+                text-align: center;
+                font-weight: bold;
+            }
+.wrapper3 {
+    background-color: rgb(75, 59, 97);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .wrapper3 h2 {
+        font-style:italic;
+    }
+
+.wrapper4 {
+    background-color: rgb(86, 115, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+    .w4-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(22, 8, 47);
+        height: 200px;
+        width: 900px;
+        border-radius: 10px;
+    }
+
+        .w4-left-container p{
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+    .w4-button {
+        height: 30px;
+        width: 100px;
+        background-color: rgb(22, 8, 47);
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+        .w4-button:hover {
+            scale: 1.1;
+            background-color: rgb(212, 212, 212);
+            color: black;
+            font-weight: bold;
+        }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 8, 47);
+    height: 70px; 
+    font-size: 20px;
+}
